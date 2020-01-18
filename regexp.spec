@@ -32,7 +32,7 @@
 
 Name:           regexp
 Version:        1.5
-Release:        12%{dist}
+Release:        13%{dist}
 Epoch:          0
 Summary:        Simple regular expressions API
 License:        ASL 2.0
@@ -100,6 +100,9 @@ ant -Djakarta-site2.dir=. test
 %doc %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.5-13
+- Mass rebuild 2013-12-27
+
 * Tue Jul 23 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 0:1.5-12
 - Enable testsuite
 
